@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/IsSvcConnected_View_ID"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/IsGPSConnected_View_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/IsBLEConnected_View_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/TrackLength_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Пройдено:" />
+
+    <TextView
+        android:id="@+id/Count_View_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TrackLength_ID"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Обновлений местоположения:" />
+
+    <TextView
+        android:id="@+id/MySpeed_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Условная скорость:" />
+
+    <TextView
+        android:id="@+id/State_View_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Count_View_ID"
+        android:layout_marginTop="15dp"
+        android:text="Статус:" />
+
+    <Button
+        android:id="@+id/Start_Button_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:text="START" />
+
+    <Button
+        android:id="@+id/Stop_Button_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="onClick"
+        android:text="STOP" />
+
+    <Button
+        android:id="@+id/Rescan_Button_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="onClick"
+        android:text="Rescan" />
+
+    <Button
+        android:id="@+id/Enable_Button_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="ENABLE" />
+
+    <Button
+        android:id="@+id/Settings_Button_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:onClick="onClick"
+        android:text="Settings" />
+
+    <TextView
+        android:id="@+id/Exception_View_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<component name="ProjectDictionaryState">
+  <dictionary name="user">
+    <words>
+      <w>autocheck</w>
+      <w>autosend</w>
+      <w>deltatime</w>
+      <w>distcode</w>
+      <w>fulldistcode</w>
+      <w>iscorrection</w>
+      <w>maxlat</w>
+      <w>maxlon</w>
+      <w>midlat</w>
+      <w>midlong</w>
+      <w>minlat</w>
+      <w>minlon</w>
+      <w>myspeed</w>
+      <w>oldlocation</w>
+      <w>olegruk</w>
+      <w>outchannel</w>
+      <w>oziexplorer</w>
+      <w>prepeared</w>
+      <w>readed</w>
+      <w>rssi</w>
+      <w>sended</w>
+      <w>tracklength</w>
+      <w>trackmessenger</w>
+      <w>trkpt</w>
+      <w>trkseg</w>
+    </words>
+  </dictionary>
+</component>
